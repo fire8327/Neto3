@@ -18,12 +18,23 @@
 }
 
 /* стили для галочки */
-
+.form-filter-field:checked + .form-filter-label::before {
+    background-image: url("https://netology-code.github.io/html/form-elements/img/checked.svg");
+    background-size: 12px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
 
 /* стили для фокуса */
-
+.form-filter-field:focus + .form-filter-label::before {
+    outline: 2px solid #30a281;
+    outline-offset: 2px;
+}
 
 /* стили для visually-hidden */
-
+.visually-hidden {
+    position: fixed;
+    transform: scale(0);
+}
 
 /* стили для кнопки .form-filter-button*/
