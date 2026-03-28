@@ -38,3 +38,18 @@
 }
 
 /* стили для кнопки .form-filter-button*/
+.form-filter-button {
+    /* сброс */
+    border: none;
+    background: none;
+    margin: 0;
+    padding: 0;
+
+    /* стили */
+    padding: 15px;
+    width: 100%;
+    color: #fff;
+    text-transform: uppercase;
+    background: #30a281;
+    border-radius: 5px;
+}
