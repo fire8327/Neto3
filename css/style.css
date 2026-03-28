@@ -1,5 +1,10 @@
 /* стили для кнопки поиска .search-button*/
-
+.search-button {
+    background-image: url("https://netology-code.github.io/html/form-elements/img/search.svg");
+    background-size: 35px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
 
 /* стили для before у .form-filter-label*/
 
